@@ -1,0 +1,44 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar  
+        ul 
+           div#logo
+               
+              
+           li #[a(href="/") Home ]
+           li  #[a(href="/") About ] 
+           li  #[a(href="/") Services ]
+           li  #[a(href="/") Class info ]
+           li  #[a(href="/") Contact Us ]
+
+    section#introSection 
+       div  Welcome to Punam's Dance Academy
+       div.small  Once a dancer, forever a dance
+    section#missionSection   
+        h2 Our Mission
+        div.card
+            h3  Let go all your fears and insecurities in your dance. Let go all the critics and snide remarks in your dance.
+              
+            
+        div.card
+            h3  Dancing is like a conversation between two people! Talk …Express yourself and Enjoy the moment.
+        div.card
+            h3  To dance, put your hand on your heart and listen to the sound of your soul. – Eugene Louis (Luigi) Faccuito.
+       
+    section#sponsorsSection  
+        h2 Our Sponsors 
+        div#sponsors 
+            img(src="/static/4.png",alt="Sponsor Image" , class="spImage" ) 
+            img(src="/static/5.png",alt="Sponsor Image" , class="spImage" ) 
+            img(src="/static/7.png",alt="Sponsor Image" , class="spImage" ) 
+            img(src="/static/8.png",alt="Sponsor Image" , class="spImage" )
+
+
+    footer#footer
+        | Copyright © 2021 PunamAcademy.com | All Rights Reserved
+    script
+      include ../static/index.js
